@@ -1,7 +1,7 @@
 Hello and welcome to my project.
 
 Using both Tensorflow and Sklearn I built a program that allows the user to train a model using the messages in a WhatsApp .txt exported file in order to then be able to predict the author of a completely new and invented phrase. 
-The program first parses the texts and authors and saves them as a .pkl file. After that the authors are then encoded andf the texts using Tensorflow's TextVectorization are vectorized in order for the network to be able to interpret and be trained. 
+The program first parses the texts and authors and saves them as a .pkl file. After that the authors are then encoded and the texts, using Tensorflow's TextVectorization, are vectorized in order for the network to be able to interpret and be trained. 
 Both the classifier model and encoder are then saved to be used later: the model as a .keras and the encoder as a .pkl to avoid having to retrain the model on the same chat file. The terminal usage for the program is as follows: 
 
 'Usage: main.py (search/predict/train) (word/phrase to search or predict, or filename for training)' 
